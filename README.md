@@ -1,8 +1,10 @@
-# wallpaper
+# Capacitor Wallpaper Plugin
 
-capacitor wallpaper pluging
+This is a Capacitor plugin that allows you to manipulate the wallpaper on a user's device. With this plugin, you can set an image as the wallpaper for the home screen. Please note that this plugin is currently only developed for Android.
 
-## Install
+## Installation
+
+To install this plugin, run the following command in your terminal:
 
 ```bash
 npm install wallpaper-project
