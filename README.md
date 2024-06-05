@@ -5,7 +5,7 @@ capacitor wallpaper pluging
 ## Install
 
 ```bash
-npm install wall
+npm install wallpaper-project
 npx cap sync
 ```
 
@@ -13,24 +13,22 @@ npx cap sync
 
 <docgen-index>
 
-* [`echo(...)`](#echo)
+* [`setBase64(...)`](#setbase64)
 
 </docgen-index>
 
 <docgen-api>
 <!--Update the source file JSDoc comments and rerun docgen to update the docs below-->
 
-### echo(...)
+### setBase64(...)
 
 ```typescript
-echo(options: { value: string; }) => Promise<{ value: string; }>
+setBase64(options: { base64Image: string; }) => Promise<void>
 ```
 
-| Param         | Type                            |
-| ------------- | ------------------------------- |
-| **`options`** | <code>{ value: string; }</code> |
-
-**Returns:** <code>Promise&lt;{ value: string; }&gt;</code>
+| Param         | Type                                  |
+| ------------- | ------------------------------------- |
+| **`options`** | <code>{ base64Image: string; }</code> |
 
 --------------------
 
