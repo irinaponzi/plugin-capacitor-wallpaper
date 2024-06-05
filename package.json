@@ -1,6 +1,6 @@
 {
   "name": "wallpaper-project",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "description": "wallpaper pluging",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
@@ -15,7 +15,7 @@
     "Package.swift",
     "Wall.podspec"
   ],
-  "author": "",
+  "author": "irina-ponzi",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
